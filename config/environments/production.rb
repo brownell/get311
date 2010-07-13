@@ -26,3 +26,64 @@ config.action_view.cache_template_loading            = true
 
 # Enable threaded mode
 # config.threadsafe!
+
+$INSTALL_PATH = ''
+$GA_CODE = ''
+$DB_USE_SQLITE = false
+$INST_NAME = "HBC"
+$ORG_NAME = 'City of Austin'
+$CITY_STATE = 'Austin, TX'
+$THEME = 'hbc'
+$CONTACT_ADDY = 'brownell@chalstrom.com'
+$MOBILE_WEB_ADDY = 'm.chalstrom.us'
+$MAIN_SITE_ADDY = 'www.chalstrom.us'
+$EMAIL_ENDING = 'chalstrom.us'
+$AREA_CODE = '512'
+$EXCHANGE = '569'
+$HAS_OC_PREFIX = false
+$ONCAMPUS_PREFIX = '5'
+$HAS_DIR_SEARCH_VA = false
+$DIR_SEARCH_VA_NUM = ''
+$DIR_SEARCH_SAMP_L = ''
+$DIR_SEARCH_SAMP_S = ''
+$HOMESCREEN_ICON = 'homelink_h.png'
+$MAPS_API_KEY = ''
+
+$WK_ITEMS = [
+  ['Emergency','emergency','','emergency.png',false,''],
+  ['Calendar','calendar','','events.png',false,''],
+  ['Map','map','','map.png',false,''],
+  ['News','news','','rss.png',false,''],
+  ['Links','links','','links.png',false,''],
+  ['Directory','people','','people.png',false,''],
+  ['YouTube','youtube','','youtube.png',false,''],
+  ['Full Site','','','hedu.png',true,'http://' + $MAIN_SITE_ADDY + '/'],
+  ['Bookmark','mobile-about','?page=homescreen','homescreen.png',false,''],
+  ['Hours','hours','','hours.png',false,'']
+]
+
+$TO_ITEMS = [
+  ['Emergency','emergency','','emergency.png',false,''],
+  ['Calendar','calendar','','calendar.png',false,''],
+  ['Map','map','','map.png',false,''],
+  ['News','news','','rss.png',false,''],
+  ['Links','links','','links.png',false,''],
+  ['Directory','people','','people.png',false,''],
+  ['YouTube','youtube','','youtube.png',false,''],
+  ['Full Site','','','hedu.png',true,'http://' + $MAIN_SITE_ADDY + '/'],
+  ['Bookmark','mobile-about','?page=homescreen','homescreen.png',false,''],
+  ['Hours','hours','','hours.png',false,'']
+]
+
+$BC_ITEMS = [
+  ['Emergency Info','emergency','',false,''],
+  ['Events Calendar','calendar','',false,''],
+  ['Map','map','',false,''],
+  ['News','news','',false,''],
+  ['Links','links','',false,''],
+  ['Directory','people','',false,''],
+  ['YouTube','youtube','',false,''],
+  ['Hours','hours','','hours.png',false,'']
+]
+
+$HAS_SMS = false
