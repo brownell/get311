@@ -1,0 +1,45 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  libraries: 1
+  prt: 1
+  sms: 1
+  news: 1
+  hours: 1
+  radio: 1
+  gameday: 1
+  youtube: 1
+  calendar: 1
+  day: MyString
+  emergency: 1
+  home: 1
+  links: 1
+  map: 1
+  mobile_about: 1
+  people: 1
+  shuttleschedule: 1
+  webkit: 1
+  touch: 1
+  basic: 1
+
+two:
+  libraries: 1
+  prt: 1
+  sms: 1
+  news: 1
+  hours: 1
+  radio: 1
+  gameday: 1
+  youtube: 1
+  calendar: 1
+  day: MyString
+  emergency: 1
+  home: 1
+  links: 1
+  map: 1
+  mobile_about: 1
+  people: 1
+  shuttleschedule: 1
+  webkit: 1
+  touch: 1
+  basic: 1

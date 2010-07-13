@@ -1,0 +1,12 @@
+<td>
+  <a href="/<%= item[1] %>/<%= item[2] %>"
+     class="flip"
+     ontouchstart="addHighlight('img_<%= index %>');"
+     onclick="javascript:$('#loading-<%= index %>').show()"
+     ontouchend="removeHighlight('img_<%= index %>');">
+    <img src="/themes/<%= @theme %>/webkit/images/loading_big_grey_bg.gif" id="loading-<%= index %>" class="home_loading" />
+    <img class="touch dropshadow" src="/themes/<%= @theme %>/webkit/images/homescreen/<%= item[3] %>" id="img_<%= index %>" width="56" height="56" alt="foo" />
+    <br />
+  <%= item[0] %>
+  </a>
+</td>

@@ -1,0 +1,31 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  physical_address: MyString
+  code: MyString
+  parent: MyString
+  hours: MyString
+  website: MyString
+  wifi: MyString
+  phone: MyString
+  type: MyString
+  subtype: MyString
+  campus: MyString
+  latitude: MyString
+  longitude: MyString
+
+two:
+  name: MyString
+  physical_address: MyString
+  code: MyString
+  parent: MyString
+  hours: MyString
+  website: MyString
+  wifi: MyString
+  phone: MyString
+  type: MyString
+  subtype: MyString
+  campus: MyString
+  latitude: MyString
+  longitude: MyString

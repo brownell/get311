@@ -1,0 +1,11 @@
+
+<% @items.each_index do |i| %>
+  <%= "<tr>" if i%4 == 0 %>
+  <% if @items[i][4] then %>
+    <%= render :partial => "#{ @prefix }/link_item", :locals => {:item => @items[i], :index => i} %>
+  <% else %>
+    <%= render :partial => "#{ @prefix }/nav_item" , :locals => {:item => @items[i], :index => i} %>
+  <% end %>
+<% end %>
+<%= (@items.length)%4.times { "<td></td>" }
+"<tr>" %>
