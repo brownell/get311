@@ -20,8 +20,8 @@ config.action_mailer.raise_delivery_errors = false
 $INSTALL_PATH = ''
 $GA_CODE = ''
 $DB_USE_SQLITE = false
-$INST_NAME = "HBC"
-$ORG_NAME = 'City of Austin'
+$INST_NAME = "OpenAustin"
+$ORG_NAME = 'OpenAustin'
 $CITY_STATE = 'Austin, TX'
 $THEME = 'hbc'
 $CONTACT_ADDY = 'brownell@chalstrom.com'
@@ -41,15 +41,21 @@ $MAPS_API_KEY = ''
 
 $WK_ITEMS = [
   ['Emergency','emergency','','emergency.png',false,''],
-  ['Calendar','calendar','','events.png',false,''],
+  ['Calendar','calendar','','events.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Get+the+schedule+for'],
   ['Map','map','','map.png',false,''],
-  ['News','news','','rss.png',false,''],
+  ['Directory','directory','','directory.png',false,''],
+  ['Hours','office_hours','','hours.png',false,''],
+  ['Learn about','learn','','learn.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Learn+all+about'],
+  ['Activate/Terminate','activate','','links.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Activate%2Fterminate'],
+  ['Apply/Register','apply','','links.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Apply+or+register+for'],
+  ['Find info','find','','find.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Find+information'],
+  ['Make payment','pay','','pay.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Pay'],
+  ['Report','report','','links.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Report'],
+  ['Reserve facility','reserve','','links.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Reserve'],
   ['Links','links','','links.png',false,''],
-  ['Directory','people','','people.png',false,''],
-  ['YouTube','youtube','','youtube.png',false,''],
-  ['Full Site','','','hedu.png',true,'http://' + $MAIN_SITE_ADDY + '/'],
-  ['Bookmark','mobile-about','?page=homescreen','homescreen.png',false,''],
-  ['Hours','hours','','hours.png',false,'']
+  ['Libraries','libraries','','libraries.png',false,''],
+  ['Transportation','transport','','transport.png',false,''],
+  ['Bookmark','bookmark','','bookmark.png',false,'']
 ]
 
 $TO_ITEMS = [

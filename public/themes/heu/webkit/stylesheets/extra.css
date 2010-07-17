@@ -3,14 +3,15 @@
 	background-color: #000c18;
 }
 #homegrid {
-	width: 300px;
+	width: 304px;
 	margin: 0 auto;
 	padding: 0;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
 #homegrid td {
-	width: 25%;
+	width: 76px !important;
+        height: 103px !important;
 	margin: 0;
 	padding: 0;
 	border: 0;

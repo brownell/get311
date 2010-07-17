@@ -1,6 +1,27 @@
 ActionController::Routing::Routes.draw do |map|
   # The priority is based upon order of creation: first created -> highest priority.
 
+  map.emergency 'emergency', :controller => 'place_holder', :action => 'emergency'
+  map.emergency 'calendar', :controller => 'place_holder', :action => 'calendar'
+  map.emergency 'map', :controller => 'place_holder', :action => 'map'
+  map.emergency 'athletics', :controller => 'place_holder', :action => 'athletics'
+  map.emergency 'directory', :controller => 'place_holder', :action => 'directory'
+  map.emergency 'libraries', :controller => 'place_holder', :action => 'libraries'
+  map.emergency 'transit', :controller => 'place_holder', :action => 'transit'
+  map.emergency 'office_hours', :controller => 'place_holder', :action => 'office_hours'
+  map.emergency 'news', :controller => 'place_holder', :action => 'news'
+  map.emergency 'video', :controller => 'place_holder', :action => 'video'
+  map.emergency 'full_site', :controller => 'place_holder', :action => 'full_site'
+  map.emergency 'bookmark', :controller => 'place_holder', :action => 'bookmark'
+  map.emergency 'activate', :controller => 'place_holder', :action => 'links'
+  map.emergency 'learn', :controller => 'place_holder', :action => 'links'
+  map.emergency 'apply', :controller => 'place_holder', :action => 'links'
+  map.emergency 'find', :controller => 'place_holder', :action => 'links'
+  map.emergency 'pay', :controller => 'place_holder', :action => 'links'
+  map.emergency 'report', :controller => 'place_holder', :action => 'links'
+  map.emergency 'reserve', :controller => 'place_holder', :action => 'links'
+  map.emergency 'links', :controller => 'place_holder', :action => 'links'
+  map.emergency 'transport', :controller => 'place_holder', :action => 'links'
   # Sample of regular route:
   #   map.connect 'products/:id', :controller => 'catalog', :action => 'view'
   # Keep in mind you can assign values other than :controller and :action
