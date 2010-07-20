@@ -40,21 +40,21 @@ $HOMESCREEN_ICON = 'homelink_h.png'
 $MAPS_API_KEY = ''
 
 $WK_ITEMS = [
-  ['Emergency','emergency','','emergency.png',false,''],
-  ['Calendar','calendar','','events.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Get+the+schedule+for'],
-  ['Map','map','','map.png',false,''],
-  ['Directory','directory','','directory.png',false,''],
-  ['Hours','office_hours','','hours.png',false,''],
-  ['Learn about','learn','','learn.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Learn+all+about'],
-  ['Activate/Terminate','activate','','links.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Activate%2Fterminate'],
-  ['Apply/Register','apply','','links.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Apply+or+register+for'],
-  ['Find info','find','','find.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Find+information'],
-  ['Make payment','pay','','pay.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Pay'],
-  ['Report','report','','links.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Report'],
-  ['Reserve facility','reserve','','links.png',false,'/nouns/get_for_verb?device_type=mobile&verb=Reserve'],
-  ['Links','links','','links.png',false,''],
-  ['Libraries','libraries','','libraries.png',false,''],
-  ['Transportation','transport','','transport.png',false,''],
+  ['How to ...','howto','','howto.png',false,''],
+  ['Calendar','calendar','','calendar.png',false,''],
+  ['News','news','','news.png',false,''],
+  ['City jobs','jobs','','jobs.png',false,''],
+  ['Departments','departments','','departments.png',false,''],
+  ['Learning center','learn','','learn.png',false,''],
+  ['Pay fine or fee','pay','','pay.png',false,''],
+  ['Enroll','enroll','','enroll.png',false,''],
+  ['Notify','notify','','report.png',false,''],
+  ['Parks','parks','','sports.png',false,''],
+  ['Animals','animals','','animals.png',false,''],
+  ['3-1-1','three11','','three11.png',false,''],
+  ['Transit','transport','','transport.png',false,''],
+  ['Visitors','visitors','','visitors.png',false,''],
+  ['Maps','map','','map.png',false,''],
   ['Bookmark','bookmark','','bookmark.png',false,'']
 ]
 

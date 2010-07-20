@@ -3,6 +3,10 @@ log/**/*
 log/*
 db/schema.rb
 db/schema.sql
+nbproject/**/*
+nbproject
 tmp/**/*
 tmp/*
 *~
+vendor/plugins/ineedto/**/*
+vendor/plugins/ineedto

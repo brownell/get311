@@ -1,17 +1,30 @@
 /* Body Background Image */
 #jqt div#home {
-	background-color: #000c18;
+	background-image:url(/themes/brownell/webkit/images/body_background.jpg);
+        background-repeat:no-repeat;background-color:#000c18
+}
+
+#jqt>div
+	{background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0d2a48), to(#051627))}
+
+.coming {
+    color: white;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left:10px;
+    margin-right: 5px;
+    min-height:250px;
 }
 #homegrid {
-	width: 304px;
+	width: 300px;
 	margin: 0 auto;
 	padding: 0;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
 #homegrid td {
-	width: 76px !important;
-        height: 103px !important;
+	width: 25%;
 	margin: 0;
 	padding: 0;
 	border: 0;

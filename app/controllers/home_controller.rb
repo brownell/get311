@@ -9,7 +9,7 @@ class HomeController < ApplicationController
     when 'touch' then $TO_ITEMS
     when 'basic' then $BA_ITEMS
     end
-    @theme = 'heu'
+    @theme = 'brownell'
     render :template => 'home/splash', :layout => @prefix
   end
 

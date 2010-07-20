@@ -59,6 +59,9 @@ Rails::Initializer.run do |config|
     {:contains => "opera mini",
       :phone_type => "opera",
       :prefix => "touch"},
+    {:contains => "webkit",
+      :phone_type => "webkit",
+      :prefix => "webkit"},
     {:contains => "blackberry|palm os|palm|hiptop|avantgo|plucker|xiino|blazer|elaine|windows ce; ppc;|windows ce; smartphone;|windows ce; iemobile|up.browser|up.link|mmp|symbian|smartphone|midp|wap|vodafone|o2|pocket|kindle|mobile|pda|psp|treo",
       :phone_type => "smart_phone",
       :prefix => "basic"}
