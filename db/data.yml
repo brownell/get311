@@ -1,0 +1,948 @@
+
+--- 
+extras: 
+  columns: 
+  - id
+  - verb_id
+  - noun_id
+  - phrase
+  - detail
+  - created_at
+  - updated_at
+  records: 
+  - - "19"
+    - "4"
+    - "13"
+    - the nearest fire station
+    - 
+    - 2010-06-28 21:53:06
+    - 2010-06-28 21:53:06
+  - - "20"
+    - "4"
+    - "13"
+    - the nearest library
+    - 
+    - 2010-06-28 21:54:22
+    - 2010-06-28 21:54:22
+  - - "21"
+    - "4"
+    - "13"
+    - the nearest park
+    - 
+    - 2010-06-28 21:55:53
+    - 2010-06-28 21:55:53
+  - - "22"
+    - "7"
+    - "15"
+    - electrical service
+    - 
+    - 2010-06-28 21:59:01
+    - 2010-06-28 21:59:01
+  - - "23"
+    - "7"
+    - "15"
+    - water and wastewater service
+    - 
+    - 2010-06-28 22:00:29
+    - 2010-06-28 22:00:29
+  - - "27"
+    - "4"
+    - "13"
+    - a city office
+    - 
+    - 2010-07-01 00:10:20
+    - 2010-07-01 00:10:20
+  - - "28"
+    - "4"
+    - "31"
+    - is it in a floodplain?
+    - 
+    - 2010-07-01 00:10:20
+    - 2010-07-01 00:10:20
+  - - "29"
+    - "4"
+    - "40"
+    - airport related
+    - 
+    - 2010-07-01 00:35:39
+    - 2010-07-01 00:35:39
+  - - "30"
+    - "4"
+    - "40"
+    - Housing Finance Authority
+    - 
+    - 2010-07-01 00:36:19
+    - 2010-07-01 00:36:19
+  - - "31"
+    - "4"
+    - "40"
+    - land management
+    - 
+    - 2010-07-01 00:36:42
+    - 2010-07-01 00:36:42
+  - - "32"
+    - "4"
+    - "44"
+    - adopting a dog or cat
+    - 
+    - 2010-07-01 04:38:12
+    - 2010-07-01 04:38:12
+  - - "33"
+    - "4"
+    - "44"
+    - dead animal collection
+    - 
+    - 2010-07-01 04:39:20
+    - 2010-07-01 04:39:20
+  - - "34"
+    - "4"
+    - "44"
+    - Off-leash areas
+    - 
+    - 2010-07-01 04:40:06
+    - 2010-07-01 04:40:06
+  - - "35"
+    - "4"
+    - "44"
+    - cleaning up after your pet
+    - 
+    - 2010-07-01 04:40:51
+    - 2010-07-01 04:40:51
+  - - "36"
+    - "4"
+    - "44"
+    - dog-friendly restaurants
+    - 
+    - 2010-07-01 04:41:36
+    - 2010-07-01 04:41:36
+  - - "37"
+    - "8"
+    - "45"
+    - barton springs salamander
+    - 
+    - 2010-07-01 04:42:48
+    - 2010-07-01 04:42:48
+  - - "38"
+    - "4"
+    - "44"
+    - intentional feeding of deer
+    - 
+    - 2010-07-01 04:43:29
+    - 2010-07-01 04:43:29
+  - - "39"
+    - "2"
+    - "46"
+    - noisy animal complaint
+    - 
+    - 2010-07-01 04:44:56
+    - 2010-07-01 04:44:56
+  - - "40"
+    - "8"
+    - "47"
+    - day labor
+    - 
+    - 2010-07-01 04:46:06
+    - 2010-07-01 04:46:06
+  - - "41"
+    - "4"
+    - "49"
+    - at the airport
+    - 
+    - 2010-07-01 05:59:36
+    - 2010-07-01 05:59:36
+  - - "42"
+    - "4"
+    - "49"
+    - at the history center
+    - 
+    - 2010-07-01 06:00:20
+    - 2010-07-01 06:00:20
+  - - "43"
+    - "4"
+    - "49"
+    - green parking meters
+    - 
+    - 2010-07-01 06:01:11
+    - 2010-07-01 06:01:11
+  - - "44"
+    - "6"
+    - "50"
+    - ice cream
+    - 
+    - 2010-07-07 16:17:31
+    - 2010-07-07 16:17:31
+  - - "45"
+    - "6"
+    - "50"
+    - pancakes
+    - 
+    - 2010-07-07 16:17:49
+    - 2010-07-07 16:17:49
+  - - "46"
+    - "6"
+    - "50"
+    - tacos
+    - 
+    - 2010-07-08 14:28:56
+    - 2010-07-08 14:28:56
+  - - "47"
+    - "6"
+    - "50"
+    - pizza
+    - 
+    - 2010-07-08 14:31:57
+    - 2010-07-08 14:31:57
+
+--- 
+nouns: 
+  columns: 
+  - id
+  - verb_id
+  - phrase
+  - detail
+  - created_at
+  - updated_at
+  records: 
+  - - "13"
+    - "4"
+    - on the location of
+    - 
+    - 2010-06-28 21:52:57
+    - 2010-06-28 21:52:57
+  - - "14"
+    - "7"
+    - the city service for
+    - 
+    - 2010-06-28 21:58:35
+    - 2010-06-28 21:58:35
+  - - "15"
+    - "7"
+    - "the city utility: "
+    - 
+    - 2010-06-28 21:58:57
+    - 2010-06-28 21:58:57
+  - - "16"
+    - "6"
+    - being a vendor to the city
+    - 
+    - 2010-06-28 22:04:23
+    - 2010-06-28 22:04:23
+  - - "18"
+    - "6"
+    - a library card
+    - 
+    - 2010-06-30 23:53:13
+    - 2010-06-30 23:53:13
+  - - "20"
+    - "2"
+    - graffiti
+    - 
+    - 2010-06-30 23:58:48
+    - 2010-06-30 23:58:48
+  - - "21"
+    - "2"
+    - a street light problem
+    - 
+    - 2010-07-01 00:01:42
+    - 2010-07-01 00:01:42
+  - - "22"
+    - "2"
+    - a missed trash pickup
+    - 
+    - 2010-07-01 00:04:13
+    - 2010-07-01 00:04:13
+  - - "23"
+    - "1"
+    - for a traffic ticket
+    - 
+    - 2010-07-01 00:05:31
+    - 2010-07-01 00:05:31
+  - - "24"
+    - "1"
+    - an electric bill
+    - 
+    - 2010-07-01 00:06:55
+    - 2010-07-01 00:06:55
+  - - "25"
+    - "1"
+    - a water bill
+    - 
+    - 2010-07-01 00:07:21
+    - 2010-07-01 00:07:21
+  - - "26"
+    - "1"
+    - a utilities bill
+    - 
+    - 2010-07-01 00:07:56
+    - 2010-07-01 00:07:56
+  - - "27"
+    - "2"
+    - "a weeded r or "
+    - 
+    - 2010-07-01 00:08:49
+    - 2010-07-01 00:08:49
+  - - "28"
+    - "2"
+    - a weeded or littered lot
+    - 
+    - 2010-07-01 00:09:05
+    - 2010-07-01 00:09:05
+  - - "29"
+    - "2"
+    - a building code violation
+    - 
+    - 2010-07-01 00:09:28
+    - 2010-07-01 00:09:28
+  - - "30"
+    - "6"
+    - "the city newsletter "
+    - 
+    - 2010-07-01 00:11:37
+    - 2010-07-01 00:11:37
+  - - "31"
+    - "4"
+    - "about my house:"
+    - 
+    - 2010-07-01 00:13:18
+    - 2010-07-01 00:13:18
+  - - "32"
+    - "2"
+    - water waste
+    - 
+    - 2010-07-01 00:22:53
+    - 2010-07-01 00:22:53
+  - - "33"
+    - "5"
+    - city council meetings
+    - 
+    - 2010-07-01 00:24:26
+    - 2010-07-01 00:24:26
+  - - "34"
+    - "4"
+    - on watching city council meetings on video
+    - 
+    - 2010-07-01 00:24:58
+    - 2010-07-01 00:24:58
+  - - "35"
+    - "2"
+    - a lost or found pet
+    - 
+    - 2010-07-01 00:25:40
+    - 2010-07-01 00:25:40
+  - - "36"
+    - "6"
+    - a building permit
+    - 
+    - 2010-07-01 00:26:18
+    - 2010-07-01 00:26:18
+  - - "40"
+    - "4"
+    - "on doing business with the city: "
+    - 
+    - 2010-07-01 00:35:18
+    - 2010-07-01 00:35:18
+  - - "41"
+    - "8"
+    - air quality
+    - 
+    - 2010-07-01 00:39:04
+    - 2010-07-01 00:39:04
+  - - "44"
+    - "4"
+    - "about animals:"
+    - 
+    - 2010-07-01 04:38:02
+    - 2010-07-01 04:38:02
+  - - "45"
+    - "8"
+    - "wildlife: "
+    - 
+    - 2010-07-01 04:42:12
+    - 2010-07-01 04:42:12
+  - - "46"
+    - "2"
+    - "about animals: "
+    - 
+    - 2010-07-01 04:44:42
+    - 2010-07-01 04:44:42
+  - - "47"
+    - "8"
+    - "doing business in central TX: "
+    - 
+    - 2010-07-01 04:45:49
+    - 2010-07-01 04:45:49
+  - - "48"
+    - "6"
+    - a permit for an event
+    - 
+    - 2010-07-01 04:47:10
+    - 2010-07-01 04:47:10
+  - - "49"
+    - "4"
+    - "about parking "
+    - 
+    - 2010-07-01 05:58:49
+    - 2010-07-01 05:58:49
+  - - "50"
+    - "6"
+    - "a food concession for: "
+    - ""
+    - 2010-07-07 16:17:11
+    - 2010-07-07 16:19:27
+
+--- 
+solutions: 
+  columns: 
+  - id
+  - verb_id
+  - noun_id
+  - extra_id
+  - name
+  - detail
+  - url
+  - created_at
+  - updated_at
+  records: 
+  - - "13"
+    - "4"
+    - "13"
+    - "19"
+    - Nearest fire station
+    - |-
+      <p class="f"><font face="arial, helvetica, swiss" size="2"><i>(Below is a
+       list of all <a href="http://www.ci.austin.tx.us/fire/fdstatio.htm#stations">AFD fire 
+      stations</a>. If you need the location of your nearest fire station for 
+      insurance purposes, see the <a href="http://www.ci.austin.tx.us/fire/afdmap.htm">Map of AFD Stations</a>
+       or call AFD Headquarters at 512/974-4100,and be prepared to give an 
+      exact street address. For hydrant location information, call the 
+      Water/Wastewater Utility Maps and Records Division at 512/972-1560)</i></font></p><font face="arial, helvetica, swiss" size="2">                               
+      
+      
+      </font><p class="f"><font face="arial, helvetica, swiss" size="2">AFD 
+      operates 43 fire stations (plus one dedicated aircraft fire and rescue 
+      station) that are located strategically throughout the City to provide 
+      an average emergency driving <a href="http://www.ci.austin.tx.us/fire/fdavg.htm">response time</a> of 
+      about four minutes. FOR SECURITY REASONS, WE DO NOT RELEASE INDIVIDUAL 
+      FIRE STATION PHONE NUMBERS. PLEASE CALL AFD HEADQUARTERS AT (512) 
+      974-4100 IF YOU NEED ASSISTANCE.  </font></p>
+    - http://www.ci.austin.tx.us/fire/fdstatio.htm
+    - 2010-06-28 21:53:52
+    - 2010-06-30 20:27:21
+  - - "14"
+    - "4"
+    - "13"
+    - "20"
+    - Nearest library
+    - ""
+    - http://www.ci.austin.tx.us/library/map.htm
+    - 2010-06-28 21:55:13
+    - 2010-06-28 21:55:13
+  - - "15"
+    - "4"
+    - "13"
+    - "21"
+    - Nearest park
+    - ""
+    - http://www.ci.austin.tx.us/parks/parkdirectory.htm
+    - 2010-06-28 21:56:11
+    - 2010-06-28 21:56:11
+  - - "16"
+    - "7"
+    - "15"
+    - "22"
+    - Activate/terminate electrical service
+    - ""
+    - http://www.austinenergy.com/Customer%20Care/Electric%20Service/index.htm
+    - 2010-06-28 21:59:43
+    - 2010-06-28 21:59:43
+  - - "17"
+    - "7"
+    - "15"
+    - "23"
+    - Water and wastewater service
+    - ""
+    - http://www.ci.austin.tx.us/water/contactus.htm
+    - 2010-06-28 22:03:24
+    - 2010-06-28 22:03:25
+  - - "18"
+    - "6"
+    - "16"
+    - 
+    - Doing business with the city
+    - ""
+    - http://www.ci.austin.tx.us/purchase/default.htm
+    - 2010-06-28 22:05:04
+    - 2010-06-28 22:05:04
+  - - "19"
+    - "6"
+    - "18"
+    - 
+    - Getting a library card
+    - |-
+      <p><font face="arial, helvetica, swiss" size="2">To apply for a Library 
+      Card, complete an Austin Public Library Adult Star Card Application and 
+      present it in person at the circulation desk of any <a href="http://www.ci.austin.tx.us/library/map.htm">Austin Public Library 
+      location</a> with a current photo I.D. and proof of your current 
+      residence address. <strong>For answers to the most frequent questions 
+      about Library Cards please see the <a onclick="pageTracker._trackPageview('/ext/www.austinlibrary.com/faq/index.cfm?topicid=2');" href="http://www.austinlibrary.com/faq/index.cfm?topicid=2">Library 
+      Card FAQ</a>.</strong> </font></p><font face="arial, helvetica, swiss" size="2">           
+      </font><p><font face="arial, helvetica, swiss" size="2"><a onclick="pageTracker._trackPageview('/downloads/library/downloads/adultregform.pdf');" href="http://www.ci.austin.tx.us/library/downloads/adultregform.pdf">Adult
+       Star Card Application</a> (PDF, <a onclick="pageTracker._trackPageview('/ext/www.adobe.com/products/acrobat/readstep.html');" href="http://www.adobe.com/products/acrobat/readstep.html">Adobe 
+      Acrobat</a> required)</font></p><font face="arial, helvetica, swiss" size="2">          
+      </font><p><font face="arial, helvetica, swiss" size="2">For youth cards 
+      see <a href="http://www.ci.austin.tx.us/library/starengl.htm">APL Youth 
+      Card Application Information</a>.</font></p>
+    - http://www.ci.austin.tx.us/library/lblcengl.htm
+    - 2010-06-30 23:53:45
+    - 2010-06-30 23:53:45
+  - - "20"
+    - "2"
+    - "20"
+    - 
+    - Report grafitti
+    - |-
+      <p>The <a href="http://www.ci.austin.tx.us/health/youth_aydp.htm">Austin
+       Youth Development Project</a>, with adult supervision and with written 
+      permission, will come to your property and remove graffiti for you at no
+       charge. Call  3-1-1 or 512-974-1028 to find out how to obtain such 
+      help. Our staff is  also available to give presentations at your schools
+       or neighborhood  association meetings.</p>
+              <h5><strong>How can you help fight graffiti?</strong></h5>
+              <p> Please call 3-1-1 or 512-974-1028 when you spot graffiti so 
+      we can  make arrangements with the property owner for cleanup. </p>
+              <p>To organize volunteer clean-ups call 854-4591.</p>
+    - http://www.ci.austin.tx.us/health/graffiti.htm
+    - 2010-06-30 23:59:33
+    - 2010-06-30 23:59:33
+  - - "21"
+    - "2"
+    - "21"
+    - 
+    - Report a street light problem
+    - |-
+      <p><span class="custservSubHead">Request Street Lighting Service 
+                          </span><br>
+                          <span class="bodycopy">Call us at 3-1-1 or <a href="mailto:Austin311@ci.austin.tx.us?subject=Street%20Lighting%20Services" class="custservLink">email us</a> 
+                          for all your street lighting needs.</span></p>
+    - http://www.austinenergy.com/Customer%20Care/Other%20Services/streetLighting.htm
+    - 2010-07-01 00:02:09
+    - 2010-07-01 00:02:09
+  - - "22"
+    - "2"
+    - "22"
+    - 
+    - Missed trash pick up
+    - "<font face=\"arial, helvetica, swiss\" size=\"2\">f you haven\xE2\x80\x99t received a\r\n notice and you placed the material at the curb by 6:30 a.m. on your \r\n\
+      collection day:</font><font face=\"arial, helvetica, swiss\" size=\"2\">\r\n \r\n\
+      </font><ul><font face=\"arial, helvetica, swiss\" size=\"2\"> \r\n  <li>Leave the missed items at the curb and call Solid Waste Services \r\n\
+      at 3-1-1.    </li> \r\n  <li>You may <a href=\"http://www.ci.austin.tx.us/sws/sws_info.cfm\">contact\r\n us by e-mail</a>. Please include your address, a contact number and the\r\n items that were missed. We will come by to pick up the missed material \r\n\
+      as soon as possible.    </li> \r\n  </font></ul><font face=\"arial, helvetica, swiss\" size=\"2\"> \r\n\
+      </font><p><font face=\"arial, helvetica, swiss\" size=\"2\"> To  help \r\n\
+      prevent this from happening again, please review our <a href=\"http://www.ci.austin.tx.us/sws/residential_garbage_guidelines.htm\">collection\r\n guidelines</a>. </font></p>"
+    - http://www.ci.austin.tx.us/sws/residential_garbage_missed.htm
+    - 2010-07-01 00:04:27
+    - 2010-07-01 00:04:28
+  - - "23"
+    - "1"
+    - "23"
+    - 
+    - Pay traffic ticket
+    - |
+      <font face="arial, helvetica, swiss" size="2">You may deliver your 
+      payment to the Court in one of five ways.                               
+      
+      </font><ol><font face="arial, helvetica, swiss" size="2">               
+      
+      <li><b>Pay your fine online.</b>  You can access information about your 
+      citation and pay your fine online from the <a href="https://www.ci.austin.tx.us/AmcPublicInquiry/pubportal.aspx">Court's
+       public information website.</a>                                    
+      </li><li>Bring your payment in person to any Court                      
+      
+      	<a href="http://www.ci.austin.tx.us/court/location.htm">location.</a>  
+      
+      </li><li>Mail your payment to the Court at the                          
+      
+      	<a href="http://www.ci.austin.tx.us/court/location.htm">Downtown 
+      mailing address</a>.                                   
+      </li><li>If paying by major credit card, you may telephone in your      
+      
+      	payment at (512) 974-4640. <br>                            
+        	** This number is for <u>credit card payments only</u>.              
+      
+        	If you need case information, please call (512) 974-4800.            
+      
+      </li><li>Place your payment in the drop-box safe located in the         
+      
+      	<a href="http://www.ci.austin.tx.us/court/location.htm">Downtown Court 
+      lobby</a>. The drop box                             
+      	is accessible after normal operating hours and 24 hours per            
+      
+      	day on weekends and <a href="http://www.ci.austin.tx.us/court/holiday.htm">holidays</a>.       
+      
+      
+      <p><font color="#ff0000" size="+1">Note:</font> The drop box is         
+      
+      NOT for cash payments! We accept payments by check, money order,        
+      
+      or major credit card.                                   
+      </p></li></font></ol><font face="arial, helvetica, swiss" size="2">     
+
+    - http://www.ci.austin.tx.us/court/fine_pay.htm
+    - 2010-07-01 00:06:03
+    - 2010-07-01 00:06:03
+  - - "24"
+    - "1"
+    - "24"
+    - 
+    - Pay electric bill
+    - ""
+    - https://www.coautilities.com/
+    - 2010-07-01 00:07:05
+    - 2010-07-01 00:07:05
+  - - "25"
+    - "1"
+    - "25"
+    - 
+    - Pay water bill
+    - ""
+    - https://www.coautilities.com/
+    - 2010-07-01 00:07:27
+    - 2010-07-01 00:07:27
+  - - "26"
+    - "1"
+    - "26"
+    - 
+    - Pay utilities bill
+    - ""
+    - https://www.coautilities.com/
+    - 2010-07-01 00:08:03
+    - 2010-07-01 00:08:03
+  - - "27"
+    - "2"
+    - "28"
+    - 
+    - Weeded or littered lot
+    - ""
+    - http://www.ci.austin.tx.us/code/compliance/violations.htm
+    - 2010-07-01 00:09:15
+    - 2010-07-01 00:09:15
+  - - "28"
+    - "2"
+    - "29"
+    - 
+    - Building code violation
+    - ""
+    - http://www.ci.austin.tx.us/code/compliance/violations.htm
+    - 2010-07-01 00:09:43
+    - 2010-07-01 00:09:43
+  - - "29"
+    - "4"
+    - "13"
+    - "27"
+    - City office directory
+    - ""
+    - http://www.ci.austin.tx.us/help/orgcharttext.htm
+    - 2010-07-01 00:10:26
+    - 2010-07-01 00:10:26
+  - - "30"
+    - "6"
+    - "30"
+    - 
+    - City newsletter
+    - ""
+    - http://www.ci.austin.tx.us/news/notes/index.cfm
+    - 2010-07-01 00:11:44
+    - 2010-07-01 00:11:44
+  - - "31"
+    - "4"
+    - "31"
+    - "28"
+    - Austin GIS Viewer
+    - ""
+    - http://coagis1.ci.austin.tx.us/website/NewFloodplain/disclaimer/ArcIMS_disclaimer.html
+    - 2010-07-01 00:13:55
+    - 2010-07-01 00:13:55
+  - - "32"
+    - "2"
+    - "32"
+    - 
+    - Report water waste
+    - ""
+    - http://coa311web.ci.austin.tx.us/web_intake/Controller?op=locform&invSRType=WWREPORT&invSRDesc=Water%20Waste%20Report&locreq=N&stnumreqd=N
+    - 2010-07-01 00:23:19
+    - 2010-07-01 00:23:19
+  - - "33"
+    - "5"
+    - "33"
+    - 
+    - City council schedule
+    - ""
+    - http://www.ci.austin.tx.us/council_meetings/public_meetings.cfm
+    - 2010-07-01 00:24:35
+    - 2010-07-01 00:24:35
+  - - "34"
+    - "4"
+    - "34"
+    - 
+    - City council schedule
+    - ""
+    - http://www.ci.austin.tx.us/council_meetings/public_meetings.cfm
+    - 2010-07-01 00:25:08
+    - 2010-07-01 00:25:08
+  - - "35"
+    - "2"
+    - "35"
+    - 
+    - Lost/found pet
+    - ""
+    - http://www.ci.austin.tx.us/health/pets/lost_pets.htm
+    - 2010-07-01 00:25:50
+    - 2010-07-01 00:25:50
+  - - "36"
+    - "6"
+    - "36"
+    - 
+    - Building permits
+    - ""
+    - http://www.ci.austin.tx.us/development/bpinfo1.htm
+    - 2010-07-01 00:26:34
+    - 2010-07-01 00:26:35
+  - - "37"
+    - "4"
+    - "40"
+    - "29"
+    - Doing business with the airport
+    - ""
+    - ""
+    - 2010-07-01 00:35:50
+    - 2010-07-01 00:35:50
+  - - "38"
+    - "4"
+    - "40"
+    - "30"
+    - Housing Fiannce Authority
+    - ""
+    - ""
+    - 2010-07-01 00:36:21
+    - 2010-07-01 05:50:04
+  - - "39"
+    - "4"
+    - "40"
+    - "31"
+    - Land management
+    - ""
+    - ""
+    - 2010-07-01 00:36:44
+    - 2010-07-01 05:50:35
+  - - "40"
+    - "8"
+    - "41"
+    - 
+    - Air quality
+    - ""
+    - ""
+    - 2010-07-01 00:39:04
+    - 2010-07-01 05:51:13
+  - - "42"
+    - "4"
+    - "44"
+    - "32"
+    - Adopting a dog or cat
+    - ""
+    - http://www.ci.austin.tx.us/health/pets/get_pet.htm
+    - 2010-07-01 04:38:28
+    - 2010-07-01 04:38:28
+  - - "43"
+    - "4"
+    - "44"
+    - "33"
+    - Dead animal collection
+    - ""
+    - http://www.ci.austin.tx.us/sws/residential_dead_animal.htm
+    - 2010-07-01 04:39:39
+    - 2010-07-01 04:39:39
+  - - "44"
+    - "4"
+    - "44"
+    - "34"
+    - Off-leash areas
+    - ""
+    - http://www.ci.austin.tx.us/parks/offleashareas.htm
+    - 2010-07-01 04:40:12
+    - 2010-07-01 04:40:12
+  - - "45"
+    - "4"
+    - "44"
+    - "35"
+    - Scoop the poop
+    - ""
+    - http://www.ci.austin.tx.us/watershed/wq_scoop.htm
+    - 2010-07-01 04:40:59
+    - 2010-07-01 04:40:59
+  - - "46"
+    - "4"
+    - "44"
+    - "36"
+    - Restaurants allowing dogs
+    - ""
+    - http://www.ci.austin.tx.us/health/consumer_health_doprr.htm
+    - 2010-07-01 04:41:44
+    - 2010-07-01 04:41:44
+  - - "47"
+    - "8"
+    - "45"
+    - "37"
+    - Barton Springs salamander
+    - ""
+    - http://www.ci.austin.tx.us/salamander/
+    - 2010-07-01 04:42:48
+    - 2010-07-01 04:42:48
+  - - "48"
+    - "4"
+    - "44"
+    - "38"
+    - Intentional feeding of deer ordinance
+    - ""
+    - http://www.ci.austin.tx.us/health/eh_ifodo.htm
+    - 2010-07-01 04:43:38
+    - 2010-07-01 04:43:38
+  - - "49"
+    - "2"
+    - "46"
+    - "39"
+    - Noisy animal complaint
+    - ""
+    - http://www.ci.austin.tx.us/court/complaint.htm
+    - 2010-07-01 04:45:04
+    - 2010-07-01 04:45:04
+  - - "50"
+    - "8"
+    - "47"
+    - "40"
+    - Day labor
+    - ""
+    - http://www.ci.austin.tx.us/health/day_labor.htm
+    - 2010-07-01 04:46:12
+    - 2010-07-01 04:46:12
+  - - "51"
+    - "6"
+    - "48"
+    - 
+    - Public assembly code enforcement
+    - ""
+    - http://www.ci.austin.tx.us/pace/default.htm
+    - 2010-07-01 04:47:32
+    - 2010-07-01 04:47:32
+  - - "52"
+    - "4"
+    - "49"
+    - "41"
+    - Parking at ABIA
+    - ""
+    - ""
+    - 2010-07-01 05:59:43
+    - 2010-07-01 05:59:43
+  - - "53"
+    - "4"
+    - "49"
+    - "42"
+    - History center parking
+    - `
+    - https://www.ci.austin.tx.us/library/parking.htm
+    - 2010-07-01 06:00:37
+    - 2010-07-01 06:00:37
+  - - "54"
+    - "4"
+    - "49"
+    - "43"
+    - Green parking meters
+    - ""
+    - https://www.ci.austin.tx.us/news/2009/on_street_parking.htm
+    - 2010-07-01 06:01:17
+    - 2010-07-01 06:01:17
+  - - "55"
+    - "6"
+    - "50"
+    - "44"
+    - ice cream
+    - ""
+    - ""
+    - 2010-07-07 16:17:36
+    - 2010-07-07 16:17:36
+  - - "56"
+    - "6"
+    - "50"
+    - "45"
+    - pancakes
+    - ""
+    - ""
+    - 2010-07-07 16:17:59
+    - 2010-07-07 16:17:59
+  - - "57"
+    - "6"
+    - "50"
+    - "46"
+    - Taco permit
+    - ""
+    - ""
+    - 2010-07-08 14:29:42
+    - 2010-07-08 14:29:42
+  - - "58"
+    - "6"
+    - "50"
+    - "47"
+    - Pizza permit
+    - ""
+    - ""
+    - 2010-07-08 14:35:10
+    - 2010-07-08 14:35:10
+
+--- 
+verbs: 
+  columns: 
+  - id
+  - phrase
+  - detail
+  - created_at
+  - updated_at
+  records: 
+  - - "1"
+    - Pay
+    - "Make a payment to a city agency or department for something.&nbsp; Examples: parking tickets, utility bills, business fees, taxes."
+    - 2010-06-26 04:10:24
+    - 2010-06-26 04:10:24
+  - - "2"
+    - Report
+    - Report something to a city agency, department, or utility.&nbsp; Examples include potholes, graffiti, building code violations, water leaks.
+    - 2010-06-26 04:14:35
+    - 2010-06-26 04:14:35
+  - - "3"
+    - Reserve
+    - Reserve some city facility.&nbsp; Could be a basketball court at a city park, a meeting room at a library.&nbsp; Does NOT include reserving library books.
+    - 2010-06-26 04:15:16
+    - 2010-06-26 04:15:16
+  - - "4"
+    - Find information
+    - Get some information from the city.&nbsp; It could be information about where to get vaccinations, what the city codes are that pertain to cutting down a tree in your yard.
+    - 2010-06-26 04:16:52
+    - 2010-07-01 00:39:47
+  - - "5"
+    - Get the schedule for
+    - Learn the time(s) and place(s) for events.&nbsp; These could be concerts in a city part, or street closings for maintenance.
+    - 2010-06-26 04:17:54
+    - 2010-06-26 04:17:54
+  - - "6"
+    - Apply or register for
+    - Usually involves submitting some information to a city agency or department in order to get something in return.&nbsp; You might apply for a job with the city, a building permit, a permit for a public demonstration.
+    - 2010-06-26 04:19:15
+    - 2010-07-01 00:12:02
+  - - "7"
+    - Activate/terminate
+    - Activate or terminate some service that is recurring.&nbsp; Examples include utilities.
+    - 2010-06-28 21:57:27
+    - 2010-06-28 21:57:27
+  - - "8"
+    - Learn all about
+    - Learn all about a broad subject, like air quality.&nbsp; Differernt from Get information, which is about more detailed facts and figures.
+    - 2010-07-01 00:38:36
+    - 2010-07-01 00:38:36

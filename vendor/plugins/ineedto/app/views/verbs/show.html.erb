@@ -1,0 +1,17 @@
+<% title "Verb" %>
+
+<p>
+  <strong>Phrase:</strong>
+  <%=h @verb.phrase %>
+</p>
+<p>
+  <strong>Detail:</strong>
+  <%=h @verb.detail %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_verb_path(@verb) %> |
+  <%= link_to "Destroy", @verb, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", verbs_path %> |
+  <%= link_to "New Verb", new_verb_path %>
+</p>

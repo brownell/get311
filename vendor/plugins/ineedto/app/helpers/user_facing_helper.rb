@@ -1,0 +1,2 @@
+module UserFacingHelper
+end

@@ -1,0 +1,22 @@
+<% title "Noun" %>
+
+<p>
+  <strong>Verb:</strong>
+  <%=h @noun.verb_id %>
+</p>
+<p>
+  <strong>Phrase:</strong>
+  <%=h @noun.phrase %>
+</p>
+<p>
+  <strong>Detail:</strong>
+  <%=h @noun.detail %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_noun_path(@noun) %> |
+  <%= link_to "Destroy", @noun, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", nouns_path %> |
+  <%= link_to "New Noun", new_noun_path %> |
+  <%= link_to "New Noun", new_noun_path %>
+</p>

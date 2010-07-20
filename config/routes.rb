@@ -1,12 +1,13 @@
 ActionController::Routing::Routes.draw do |map|
-  # The priority is based upon order of creation: first created -> highest priority.
+  # The priority is based upon order of creation: first created -> highest
+  # priority.
 
   map.emergency 'emergency', :controller => 'place_holder', :action => 'emergency'
-  map.emergency 'calendar', :controller => 'place_holder', :action => 'calendar'
-  map.emergency 'map', :controller => 'place_holder', :action => 'map'
-  map.emergency 'jobs', :controller => 'place_holder', :action => 'jobs'
-  map.emergency 'departments', :controller => 'place_holder', :action => 'departments'
-  map.emergency 'libraries', :controller => 'place_holder', :action => 'libraries'
+  map.calendar 'calendar', :controller => 'place_holder', :action => 'calendar'
+  map.map 'map', :controller => 'place_holder', :action => 'map'
+  map.jobs 'jobs', :controller => 'place_holder', :action => 'jobs'
+  map.departments 'departments', :controller => 'place_holder', :action => 'departments'
+  map.libraries 'libraries', :controller => 'place_holder', :action => 'libraries'
   map.emergency 'transit', :controller => 'place_holder', :action => 'transit'
   map.emergency 'news', :controller => 'place_holder', :action => 'news'
   map.emergency 'news', :controller => 'place_holder', :action => 'news'
@@ -20,8 +21,19 @@ ActionController::Routing::Routes.draw do |map|
   map.emergency 'notify', :controller => 'place_holder', :action => 'notify'
   map.emergency 'howto', :controller => 'place_holder', :action => 'howto'
   map.emergency 'visitors', :controller => 'place_holder', :action => 'visitors'
-  map.emergency 'parks', :controller => 'place_holder', :action => 'parks'
-  map.emergency 'transport', :controller => 'place_holder', :action => 'transport'
+  map.parks 'parks', :controller => 'place_holder', :action => 'parks'
+  map.transport 'transport', :controller => 'place_holder', :action => 'transport'
+  map.mobileabout 'mobileabout', :controller => 'place_holder', :action => 'mobile_about'
+
+  map.resources :solutions, :collection => {:get_for_extra_noun_verb => :get,
+    :get_for_noun_verb => :get}
+
+  map.resources :extras, :collection => {:get_for_noun_verb => :get}
+
+  map.resources :nouns, :collection => {:get_for_verb => :get}
+
+  map.resources :verbs
+
   # Sample of regular route:
   #   map.connect 'products/:id', :controller => 'catalog', :action => 'view'
   # Keep in mind you can assign values other than :controller and :action
@@ -51,14 +63,16 @@ ActionController::Routing::Routes.draw do |map|
   #     admin.resources :products
   #   end
 
-  # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
-   map.root :controller => "home", :action => 'splash'
+  # You can have the root of your site routed with map.root -- just remember to
+  # delete public/index.html.
+  map.root :controller => "home", :action => 'splash'
 
   # See how all your routes lay out with "rake routes"
 
-  # Install the default routes as the lowest priority.
-  # Note: These default routes make all actions in every controller accessible via GET requests. You should
-  # consider removing or commenting them out if you're using named routes and resources.
+  # Install the default routes as the lowest priority. Note: These default
+  # routes make all actions in every controller accessible via GET requests. You
+  # should consider removing or commenting them out if you're using named routes
+  # and resources.
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
 end

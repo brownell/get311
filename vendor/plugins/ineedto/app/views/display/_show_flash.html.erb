@@ -1,0 +1,5 @@
+<% unless flash == {} || flash.nil? %>
+  <% flash.each do |name, msg| %>
+    <%= content_tag :div, msg, :class => "message #{name}" unless msg.nil? || msg == "" %>
+  <% end %>
+<% end %>

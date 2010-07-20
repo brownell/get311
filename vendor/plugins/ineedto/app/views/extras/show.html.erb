@@ -1,0 +1,25 @@
+<% title "Extra" %>
+
+<p>
+  <strong>Verb:</strong>
+  <%=h @extra.verb_id %>
+</p>
+<p>
+  <strong>Noun:</strong>
+  <%=h @extra.noun_id %>
+</p>
+<p>
+  <strong>Phrase:</strong>
+  <%=h @extra.phrase %>
+</p>
+<p>
+  <strong>Detail:</strong>
+  <%=h @extra.detail %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_extra_path(@extra) %> |
+  <%= link_to "Destroy", @extra, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", extras_path %> | 
+  <%= link_to "New Extra", new_extra_path %>
+</p>

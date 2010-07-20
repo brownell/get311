@@ -1,0 +1,19 @@
+
+<div id='nouns-<%= @verb.id %>'>
+  <div class="toolbar">
+    <a class="back fade" href="#verbs">Back</a>
+    <a href="/help?txt=<%=  @verb.phrase %>" class="button slideup">Help</a>
+    <h1><%=  @verb.phrase %></h1>
+  </div>
+  <ul class='rounded'>
+    <% @nouns.each do |n| %>
+      <li id="" class='arrow'>
+        <%= link_to n.phrase, get_for_noun_verb_extras_path(:verb => @verb.phrase, :noun => n.phrase, :device_type => @device_type) %>
+      </li>
+    <% end %>
+    <!-- Add other menu items here -->
+  </ul>
+  <div class="info">
+    Managed by <%= $ORG_NAME  %> <a href="/mobileabout/" class="target_padding flip"><img src="/themes/brownell/webkit/images/info.png" height="16" width="16" border="0" class="info_img" alt="info graphic" /></a>
+  </div>
+</div><!-- Add other pages below -->

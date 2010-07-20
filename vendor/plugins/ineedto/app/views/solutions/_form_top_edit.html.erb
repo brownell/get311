@@ -1,0 +1,29 @@
+<% form_for @solution do |f| %>
+  <%= f.error_messages %>
+  <div style="font-size:18px; color:black;">
+    <%= @verb.phrase %>
+    <%= @noun.phrase %>
+    <% if @extra.nil? %>
+      none
+    <% else %>
+      <%= @extra.phrase %>
+    <% end %>.
+  </div>
+  <div class="clear"></div><br />
+  <hr />
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <div style="margin-top: 10px;">
+    <div>
+      <%= f.label :solution_detail %><br />
+      <%= f.text_area :detail, :class => "wysiwyg" %>
+    </div>
+  </div>
+  <p>
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </p>
+  <%= f.submit "Save", :class => "submit" %>
+<% end %>

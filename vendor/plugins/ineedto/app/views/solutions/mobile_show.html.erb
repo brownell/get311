@@ -1,0 +1,23 @@
+
+<div  id="<%= @div_id %>">
+  <div class="toolbar">
+    <a class="back" href="<%= @back_to %>"> Back</a>
+    <h1>Solution</h1>
+  </div>
+  <h1 style="color:white;">THIS IS THE SOLUTION </h1>
+    <p>This is where the solution text will go.  Most of the solutions do not currently have any content.</p>
+    <br />
+    <hr />
+  <div class="solution-name solution-element">Solution:  <%=  @solution.name %></div>
+  <div class="solution-detail solution-element">
+    <%=  @solution.detail -%>
+  </div>
+      <ul>
+          <li id="" class="arrow"><a href="#home">Start over</a></li>
+    </ul>
+  <!-- Add other menu items here -->
+
+  <div class="info">
+          Managed by <%= $ORG_NAME  %> <a href="/mobileabout/" class="target_padding flip"><img src="/themes/brownell/webkit/images/info.png" height="16" width="16" border="0" class="info_img" alt="info graphic" /></a>
+        </div>
+</div><!-- Add other pages below -->

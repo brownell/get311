@@ -1,0 +1,22 @@
+
+<div  id="<%= @div_id %>">
+  <div class="toolbar">
+    <a class="back" href="<%= @back_to %>"> Back</a>
+    <h1>Solutions</h1>
+  </div>
+  <ul class='rounded'>
+    <h1>Solutions for: "<%= @verb.phrase %> <%= @noun.phrase %> <%= @extra.phrase unless @extra.nil? %>"</h1>
+    <ul>
+      <% @solutions.each do |s| %>
+        <li>
+          <%= link_to s.name, solution_path(:id => s.id, :back_to => @div_id, :device_type => 'mobile') %>
+        </li>
+      <% end %>
+    </ul>
+
+    <!-- Add other menu items here -->
+  </ul>
+  <div class="info">
+          Managed by <%= $ORG_NAME  %> <a href="/mobileabout/" class="target_padding flip"><img src="/themes/<%= @theme %>/webkit/images/info.png" height="16" width="16" border="0" class="info_img" alt="info graphic" /></a>
+        </div>
+</div><!-- Add other pages below -->

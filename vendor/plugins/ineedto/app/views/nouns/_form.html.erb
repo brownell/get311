@@ -1,0 +1,17 @@
+<% form_for @noun do |f| %>
+  <%= f.error_messages %>
+  <div id="verb" style="width: 330px; float: left;">
+    Verb is: <%= @verb.phrase %>
+  </div>
+  <p>
+    <%= f.label :noun_phrase %><br />
+    <%= f.text_field :phrase %>
+  </p>
+  <div style="margin-top: 10px;">
+    <div>
+      <%= f.label :explanation_of_noun %><br />
+      <%= f.text_area :detail, :class => "wysiwyg" %>
+    </div>
+  </div>
+  <p><%= f.submit %></p>
+<% end %>

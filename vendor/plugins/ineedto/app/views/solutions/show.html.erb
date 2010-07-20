@@ -1,0 +1,33 @@
+<% title "Solution" %>
+
+<p>
+  <strong>Verb:</strong>
+  <%=h @solution.verb_id %>
+</p>
+<p>
+  <strong>Noun:</strong>
+  <%=h @solution.noun_id %>
+</p>
+<p>
+  <strong>Extra:</strong>
+  <%=h @solution.extra_id %>
+</p>
+<p>
+  <strong>Name:</strong>
+  <%=h @solution.name %>
+</p>
+<p>
+  <strong>Detail:</strong>
+  <%=h @solution.detail %>
+</p>
+<p>
+  <strong>Url:</strong>
+  <%=h @solution.url %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_solution_path(@solution) %> |
+  <%= link_to "Destroy", @solution, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", solutions_path %> |
+  <%= link_to "New Solution", new_solution_path %>
+</p>

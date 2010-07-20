@@ -1,0 +1,27 @@
+<% title "Solutions" %>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Verb</th>
+    <th>Noun</th>
+    <th>Extra</th>
+    <th>Name</th>
+    <th>Url</th>
+  </tr>
+  <% for solution in @solutions %>
+    <tr>
+      <td><%=h solution.id %></td>
+      <td><%=h solution.verb_id %></td>
+      <td><%=h solution.noun_id %></td>
+      <td><%=h solution.extra_id %></td>
+      <td><%=h solution.name %></td>
+      <td><%=h solution.url %></td>
+      <td><%= link_to "Show", solution %></td>
+      <td><%= link_to "Edit", edit_solution_path(solution) %></td>
+      <td><%= link_to "Destroy", solution, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Solution", new_solution_path %></p>

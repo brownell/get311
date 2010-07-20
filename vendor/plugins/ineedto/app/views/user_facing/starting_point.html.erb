@@ -1,0 +1,44 @@
+
+<div class="block">
+
+  <div class="block_head">
+    <h2>What action do you want to take today?</h2>
+  </div>		<!-- .block_head ends -->
+
+  <div class="block_content">
+
+    <% fields_for :x do |i| %>
+      <div id="verb" class="selector-verb">
+        <p class="selector-text">
+          Which of these best describes the action you want to take?
+        </p>
+        <%= i.label :verb,  "Verb" %><br />
+        <%= i.select :verb, @verbs_selection, :class => "styled" %><br />
+      </div>
+      <div id="noun" class="selector-noun">
+        <p class="selector-text">
+          What do you want to take that action on?  If you want to change the type of action, go ahead.
+        </p>
+        <%= i.label :noun,  "Noun" %><br />
+        <%= i.select :noun, ["a", "a"], {:include_blank => true}, :class => "styled" %><br />
+      </div>
+      <div id="extra" class="selector-extra">
+        <p class="selector-text">
+          If you provide a little more information we can narrow down your choices.
+        </p>
+        <%= i.label :extra,  "Extra Information" %><br />
+        <%= i.select :extra, ["b", "b"], {:include_blank => true}, :class => "styled" %><br />
+      </div>
+    <% end %>
+    <div class="clear"></div><br />
+    <div id="solutions" style="display:none;">
+      <h3>Solutions go here:</h3>
+    </div>
+
+  </div>		<!-- .block_content ends -->
+
+</div>		<!-- .block ends -->
+
+
+
+

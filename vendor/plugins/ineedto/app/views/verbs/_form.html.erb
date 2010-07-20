@@ -1,0 +1,14 @@
+<% form_for @verb do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :phrase %><br />
+    <%= f.text_field :phrase %>
+  </p>
+  <div style="margin-top: 10px;">
+    <div>
+      <%= f.label :explanation_of_verb %><br />
+      <%= f.text_area :detail, :class => "wysiwyg" %>
+    </div>
+  </div>
+  <p><%= f.submit %></p>
+<% end %>

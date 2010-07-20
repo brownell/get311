@@ -1,0 +1,36 @@
+
+<div  id="<%= @div_id %>">
+  <div class="toolbar">
+    <a class="back" href="#noun-<%= @verb.id %>">Back</a>
+    <h1><%= @solutions == [] ? "Need more info" : "Solutions" %></h1>
+  </div>
+  <% if @solutions == [] && @extras == [] %>
+    <p class="mobile-title">Oops.  We could not find any solutions.  Press the back button above to ask for something else.</p>
+  <% else %>
+    <ul class='rounded'>
+      <% unless @solutions == [] then %>
+        <% @solutions.each do |s| %>
+          <li id="" class='arrow'>
+            <%= link_to s.name, solution_path(:id => s.id, :back_to => @div_id, :device_type => 'mobile') %>
+          </li>
+        <% end %>
+        <% unless @extras == [] || @repeat %>
+          <li id="" class="arrow">
+            <%= link_to "More solutions", get_for_noun_verb_extras_path(:verb => @verb.phrase, :noun => @noun.phrase,
+              :repeat => true, :device_type => @device_type) %>
+          </li>
+        <% end %>
+      <% else %>
+        <% @extras.each do |e| %>
+          <li id="" class='arrow'>
+            <%= link_to e.phrase, get_for_extra_noun_verb_solutions_path(:verb => @verb.phrase, :noun => @noun.phrase,
+              :extra => e.phrase, :device_type => @device_type, :repeat => true) %>
+          </li>
+        <% end %>
+      <% end %>
+    </ul>
+  <% end %>
+  <div class="info">
+    Managed by <%= $ORG_NAME  %> <a href="/mobileabout/" class="target_padding flip"><img src="/themes/brownell/webkit/images/info.png" height="16" width="16" border="0" class="info_img" alt="info graphic" /></a>
+  </div>
+</div><!-- Add other pages below -->

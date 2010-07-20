@@ -1,0 +1,21 @@
+<% title "Verbs" %>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Phrase</th>
+    <th>Detail</th>
+  </tr>
+  <% for verb in @verbs %>
+    <tr>
+      <td><%=h verb.id %></td>
+      <td><%=h verb.phrase %></td>
+      <td><%=h verb.detail %></td>
+      <td><%= link_to "Show", verb %></td>
+      <td><%= link_to "Edit", edit_verb_path(verb) %></td>
+      <td><%= link_to "Destroy", verb, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Verb", new_verb_path %></p>

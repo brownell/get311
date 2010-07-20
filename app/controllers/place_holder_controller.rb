@@ -66,9 +66,13 @@ class PlaceHolderController < ApplicationController
   end
 
   def three11
+    puts request.user_agent
+    @verbs = Verb.all(:order => "phrase")
+    @verbs_selection = [["-- Select a Verb --", "none"]] + @verbs.map {|v| [v.phrase, v.phrase]}
+    @solution = Solution.new
     @id_text = '3-1-1'
     @title_text = @id_text
-    render :template => 'place_holder/general', :layout => false
+    render :template => 'place_holder/get311', :layout => false
   end
 
   def links
@@ -133,5 +137,9 @@ class PlaceHolderController < ApplicationController
   def coming
     @id_text = ''
     render :template => 'place_holder/coming', :layout => false
+  end
+
+  def mobileabout
+    render :template => 'place_holder/mobile_about', :layout => false
   end
 end

@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title><%= h(yield(:title) || "Austin I Need To") %></title>
+
+
+    <style type="text/css" media="all">
+      @import url("/stylesheets/style.css");
+      @import url("/stylesheets/jquery.wysiwyg.css");
+      @import url("/stylesheets/facebox.css");
+      @import url("/stylesheets/visualize.css");
+      @import url("/stylesheets/date_input.css");
+      @import url("/stylesheets/application.css");
+    </style>
+
+    <!--[if lt IE 8]><style type="text/css" media="all">@import url("stylesheets/ie.css");</style><![endif]-->
+
+    <script type="text/javascript" src="/javascripts/jquery.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.img.preload.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.filestyle.mini.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.date_input.pack.js"></script>
+    <script type="text/javascript" src="/javascripts/facebox.js"></script>
+    <script type="text/javascript" src="/javascripts/excanvas.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.visualize.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.select_skin.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.pngfix.js"></script>
+    <script type="text/javascript" src="/javascripts/custom.js"></script>
+    <script type="text/javascript" src="/javascripts/application.js"></script>
+
+  </head>
+
+  <body>
+    <div id="hld">
+      <div class="wrapper">		<!-- wrapper begins -->
+
+
+        <div id="header">
+          <h1><a href="#">City of Austin:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  I  NEED  TO . . . . </a></h1>
+
+        </div>		<!-- #header ends -->
+
+        <%= yield  %>
+
+        <%= render :partial => 'display/footer' %>
+
+      </div>
+    </div>
+  </body>
+</html>

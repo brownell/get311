@@ -1,0 +1,23 @@
+<% title "Nouns" %>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Verb</th>
+    <th>Phrase</th>
+    <th>Detail</th>
+  </tr>
+  <% for noun in @nouns %>
+    <tr>
+      <td><%=h noun.id %></td>
+      <td><%=h noun.verb_id %></td>
+      <td><%=h noun.phrase %></td>
+      <td><%=h noun.detail %></td>
+      <td><%= link_to "Show", noun %></td>
+      <td><%= link_to "Edit", edit_noun_path(noun) %></td>
+      <td><%= link_to "Destroy", noun, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Noun", new_noun_path %></p>

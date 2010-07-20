@@ -40,15 +40,15 @@ $HOMESCREEN_ICON = 'homelink_h.png'
 $MAPS_API_KEY = ''
 
 $WK_ITEMS = [
-  ['How to ...','howto','','howto.png',false,''],
-  ['Calendar','calendar','','calendar.png',false,''],
+  ['How to ...','howto','','howto.png',true,'/nouns/get_for_verb?device_type=mobile&amp;verb=Find+information'],
+  ['Calendar','calendar','','calendar.png',true,'/nouns/get_for_verb?device_type=mobile&amp;verb=Get+the+schedule+for'],
   ['News','news','','news.png',false,''],
   ['City jobs','jobs','','jobs.png',false,''],
   ['Departments','departments','','departments.png',false,''],
-  ['Learning center','learn','','learn.png',false,''],
-  ['Pay fine or fee','pay','','pay.png',false,''],
+  ['Learning center','learn','','learn.png',true,'/nouns/get_for_verb?device_type=mobile&amp;verb=Learn+all+about'],
+  ['Pay fine or fee','pay','','pay.png',true,'/nouns/get_for_verb?device_type=mobile&amp;verb=Pay'],
   ['Enroll','enroll','','enroll.png',false,''],
-  ['Notify','notify','','report.png',false,''],
+  ['Notify','notify','','report.png',true,'/nouns/get_for_verb?device_type=mobile&amp;verb=Report'],
   ['Parks','parks','','sports.png',false,''],
   ['Animals','animals','','animals.png',false,''],
   ['3-1-1','three11','','three11.png',false,''],

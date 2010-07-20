@@ -1,0 +1,18 @@
+
+<% if @solutions == [] %>
+<h1>Solutions:</h1>
+  No solutions found.  You may need to provide extra information.
+<% else %>
+  <h1>Solutions for: "<%= @verb.phrase %> <%= @noun.phrase %> <%= @extra.phrase unless @extra.nil? %>"</h1>
+  <% @solutions.each do |s| %>
+    <div class="solution-name solution-element">Solution:  <%=  s.name %></div>
+    <div class="solution-detail solution-element">
+      <%=  s.detail -%>
+    </div>
+    <div class="solution-link solution-element">
+      <%=  link_to "Take me there", s.url %>
+      &nbsp;&nbsp;(<%= s.url %>)
+    </div>
+    <hr />
+  <% end %>
+<% end %>

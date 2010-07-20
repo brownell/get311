@@ -1,0 +1,62 @@
+/*
+    Document   : application.css
+    Created on : Jun 30, 2010, 2:28:22 PM
+    Author     : brownell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.selector-verb {
+  width: 180px; float: left;
+  height:150px;
+  font-size: 16px;
+  color:black;
+}
+.selector-noun {
+  width: 350px; float: left;
+  height:150px;
+  font-size: 16px;
+  color:black;
+}
+.selector-extra {
+  width: 350px; float: left;
+  height:150px;
+  font-size: 16px;
+  color:black;
+}
+
+.selector-text {
+  height:50px;
+}
+
+.solution-element {
+  font-size: 14px;
+  color: white;
+}
+.solution-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+.solution-detail {
+
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-right-color: #585858;
+  border-left-color: #585858;
+  border-bottom-color: #585858;
+  border-top-color: #585858;
+}
+.solution-link {
+
+}

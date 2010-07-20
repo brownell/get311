@@ -5,11 +5,14 @@
     <h1><%=  @title_text %></h1>
   </div>
 
-  <p class="coming">lj sdf lkjl asdlf jl sldf lkwjerl lkjsld fkjl
-    wlkejr lkjsl dfkj lksdjer lwje rlksjl dfjlsw erlkwj ekrsdf
+  <p class="coming"><strong>
+      Coming Soon.
+    </strong><br /><br />
+    This area contains the details about the particular topic, in this case,<br /><br />
+    <strong><%= @title_text %></strong>.  <br /><br />These sections will get worked on independently.
   </p>
 
   <div class="info">
-    Served at <%= Time.now %>
+    Managed by <%= $ORG_NAME  %> <a href="/mobileabout/" class="target_padding flip"><img src="/themes/brownell/webkit/images/info.png" height="16" width="16" border="0" class="info_img" alt="info graphic" /></a>
   </div>
 </div><!-- Add other pages below -->

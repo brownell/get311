@@ -1,0 +1,25 @@
+<% title "Extras" %>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Verb</th>
+    <th>Noun</th>
+    <th>Phrase</th>
+    <th>Detail</th>
+  </tr>
+  <% for extra in @extras %>
+    <tr>
+      <td><%=h extra.id %></td>
+      <td><%=h extra.verb_id %></td>
+      <td><%=h extra.noun_id %></td>
+      <td><%=h extra.phrase %></td>
+      <td><%=h extra.detail %></td>
+      <td><%= link_to "Show", extra %></td>
+      <td><%= link_to "Edit", edit_extra_path(extra) %></td>
+      <td><%= link_to "Destroy", extra, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Extra", new_extra_path %></p>
